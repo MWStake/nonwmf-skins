@@ -109,3 +109,6 @@
 [submodule "MaginotSkinUtils"]
 	path = MaginotSkinUtils
 	url = https://github.com/Halopedia/MaginotSkinUtils
+[submodule "Wisky"]
+	path = Wisky
+	url = https://bitbucket.org/wikiskripta/wisky.git
