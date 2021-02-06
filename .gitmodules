@@ -1,5 +1,5 @@
 [submodule "chameleon"]
-	path = chameleon
+	path = Chameleon
 	url = https://github.com/cmln/chameleon
 [submodule "DarkVector"]
 	path = DarkVector
@@ -8,10 +8,10 @@
 	path = FemiwikiSkin
 	url = https://github.com/femiwiki/FemiwikiSkin
 [submodule "foreground"]
-	path = foreground
+	path = Foreground
 	url = https://github.com/thingles/foreground
 [submodule "Liberty-MW-Skin"]
-	path = Liberty-MW-Skin
+	path = Liberty
 	url = https://gitlab.com/librewiki/Liberty-MW-Skin.git/
 [submodule "ModernSkylight"]
 	path = ModernSkylight
@@ -19,3 +19,93 @@
 [submodule "Tweeki"]
 	path = Tweeki
 	url = https://github.com/thaider/Tweeki
+[submodule "ScratchWikiSkin2"]
+	path = ScratchWikiSkin2
+	url = https://github.com/InternationalScratchWiki/ScratchWikiSkin2.git
+[submodule "2018"]
+	path = 2018
+	url = https://github.com/morags/mediawiki-2018-skin.git
+[submodule "Aether"]
+	path = Aether
+	url = https://invent.kde.org/websites/aether-mediawiki.git
+[submodule "AtlasMuseum"]
+	path = AtlasMuseum
+	url = https://github.com/Atlasmuseum/AMV2.git
+[submodule "BlueLL"]
+	path = BlueLL
+	url = https://github.com/lingua-libre/BlueLL.git
+[submodule "Cavendish"]
+	path = Cavendish
+	url = https://github.com/DaSchTour/Cavendish.git
+[submodule "Citizen"]
+	path = Citizen
+	url = https://github.com/StarCitizenTools/mediawiki-skins-Citizen.git
+[submodule "Cologne_Banner"]
+	path = Cologne_Banner
+	url = https://github.com/WikiMANNia/MediaWiki-Skins-with-Advertisements.git
+[submodule "DarkCosmos"]
+	path = DarkCosmos
+	url = https://github.com/Killarnee/DarkCosmos.git
+[submodule "Dgraph"]
+	path = Dgraph
+	url = https://github.com/dgraph-io/mediawiki-dgraph-skin.git
+[submodule "eveskin"]
+	path = eveskin
+	url = https://github.com/cforcomputer/eveskin.git
+[submodule "GoMediaWiki"]
+	path = GoMediaWiki
+	url = https://github.com/naumenko/GMW-Free-Skin.git
+[submodule "hive"]
+	path = hive
+	url = https://github.com/tyrm/skin-hive.git
+[submodule "Jony"]
+	path = Jony
+	url = https://github.com/Dialexio/Jony.git
+[submodule "LiquiFlow"]
+	path = LiquiFlow
+	url = https://github.com/Liquipedia/LiquiFlow.git
+[submodule "Marginless"]
+	path = Marginless
+	url = https://github.com/tealyt/Marginless-MediaWiki.git
+[submodule "MediaWikiBootstrap"]
+	path = MediaWikiBootstrap
+	url = https://github.com/nasirkhan/mediawiki-bootstrap.git
+[submodule "Medik"]
+	path = Medik
+	url = https://bitbucket.org/wikiskripta/medik.git
+[submodule "monaco-port"]
+	path = Monaco
+	url = https://github.com/Beleggrodion/monaco-port
+[submodule "Onyx"]
+	path = Onyx
+	url = https://github.com/Halopedia/Onyx.git
+[submodule "Overclocked"]
+	path = Overclocked
+	url = https://github.com/PCGamingWiki/overclocked.git
+[submodule "Pivot"]
+	path = Pivot
+	url = https://github.com/Hutchy68/pivot.git
+[submodule "PureCss"]
+	path = PureCss
+	url = https://github.com/airbob/MediaWiki_Skin_PureCss.git
+[submodule "SimpleText"]
+	path = SimpleText
+	url = https://github.com/samwilson/mediawiki-simpletext.git
+[submodule "VectorAd"]
+	path = VectorAd
+	url = https://github.com/WikiMANNia/MediaWiki-Skins-with-Advertisements.git
+[submodule "VectorBlue"]
+	path = VectorBlue
+	url = https://github.com/Sturmkrieg/mw-VectorBlue
+[submodule "Noble"]
+	path = Noble
+	url = https://github.com/Halopedia/Noble
+[submodule "Trove"]
+	path = Trove
+	url = https://github.com/Halopedia/Trove
+[submodule "Requiem"]
+	path = Requiem
+	url = https://github.com/Halopedia/Requiem
+[submodule "MaginotSkinUtils"]
+	path = MaginotSkinUtils
+	url = https://github.com/Halopedia/MaginotSkinUtils
