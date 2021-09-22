@@ -127,3 +127,6 @@
 [submodule "Refreshed"]
 	path = Refreshed
 	url = https://github.com/Brickimedia/Refreshed
+[submodule "snapwikiskin"]
+	path = snapwikiskin
+	url = https://github.com/snapwiki/snapwikiskin
