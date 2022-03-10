@@ -130,3 +130,9 @@
 [submodule "snapwikiskin"]
 	path = snapwikiskin
 	url = https://github.com/snapwiki/snapwikiskin
+[submodule "pivot"]
+	path = pivot
+	url = https://github.com/Hutchy68/pivot.git
+[submodule "Jforeground"]
+	path = Jforeground
+	url = https://github.com/Hutchy68/Jforeground
