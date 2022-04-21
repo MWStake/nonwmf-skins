@@ -34,9 +34,6 @@
 [submodule "BlueLL"]
 	path = BlueLL
 	url = https://github.com/lingua-libre/BlueLL.git
-[submodule "Cavendish"]
-	path = Cavendish
-	url = https://github.com/DaSchTour/Cavendish.git
 [submodule "Citizen"]
 	path = Citizen
 	url = https://github.com/StarCitizenTools/mediawiki-skins-Citizen.git
