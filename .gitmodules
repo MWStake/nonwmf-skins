@@ -112,21 +112,6 @@
 [submodule "Wisky"]
 	path = Wisky
 	url = https://bitbucket.org/wikiskripta/wisky.git
-[submodule "Custard"]
-	path = Custard
-	url = https://github.com/Brickimedia/Custard
-[submodule "DeepSea"]
-	path = DeepSea
-	url = https://github.com/Brickimedia/DeepSea
-[submodule "Lia"]
-	path = Lia
-	url = https://github.com/Brickimedia/Lia
-[submodule "Quartz"]
-	path = Quartz
-	url = https://github.com/Brickimedia/Quartz
-[submodule "Refreshed"]
-	path = Refreshed
-	url = https://github.com/Brickimedia/Refreshed
 [submodule "snapwikiskin"]
 	path = snapwikiskin
 	url = https://github.com/snapwiki/snapwikiskin
