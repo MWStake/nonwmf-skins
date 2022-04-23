@@ -55,9 +55,6 @@
 [submodule "GoMediaWiki"]
 	path = GoMediaWiki
 	url = https://github.com/naumenko/GMW-Free-Skin.git
-[submodule "hive"]
-	path = hive
-	url = https://github.com/tyrm/skin-hive.git
 [submodule "Jony"]
 	path = Jony
 	url = https://github.com/Dialexio/Jony.git
