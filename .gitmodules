@@ -34,9 +34,6 @@
 [submodule "BlueLL"]
 	path = BlueLL
 	url = https://github.com/lingua-libre/BlueLL.git
-[submodule "Cavendish"]
-	path = Cavendish
-	url = https://github.com/DaSchTour/Cavendish.git
 [submodule "Citizen"]
 	path = Citizen
 	url = https://github.com/StarCitizenTools/mediawiki-skins-Citizen.git
@@ -109,21 +106,6 @@
 [submodule "Wisky"]
 	path = Wisky
 	url = https://bitbucket.org/wikiskripta/wisky.git
-[submodule "Custard"]
-	path = Custard
-	url = https://github.com/Brickimedia/Custard
-[submodule "DeepSea"]
-	path = DeepSea
-	url = https://github.com/Brickimedia/DeepSea
-[submodule "Lia"]
-	path = Lia
-	url = https://github.com/Brickimedia/Lia
-[submodule "Quartz"]
-	path = Quartz
-	url = https://github.com/Brickimedia/Quartz
-[submodule "Refreshed"]
-	path = Refreshed
-	url = https://github.com/Brickimedia/Refreshed
 [submodule "snapwikiskin"]
 	path = snapwikiskin
 	url = https://github.com/snapwiki/snapwikiskin
