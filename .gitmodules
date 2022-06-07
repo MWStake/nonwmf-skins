@@ -42,22 +42,19 @@
 	url = https://github.com/WikiMANNia/MediaWiki-Skins-with-Advertisements.git
 [submodule "DarkCosmos"]
 	path = DarkCosmos
-	url = https://github.com/Killarnee/DarkCosmos.git
+	url = https://github.com/wikimedia/DarkCosmos
 [submodule "Dgraph"]
 	path = Dgraph
 	url = https://github.com/dgraph-io/mediawiki-dgraph-skin.git
 [submodule "eveskin"]
 	path = eveskin
-	url = https://github.com/cforcomputer/eveskin.git
+	url = https://github.com/wikimedia/eveskin.git
 [submodule "GoMediaWiki"]
 	path = GoMediaWiki
 	url = https://github.com/naumenko/GMW-Free-Skin.git
 [submodule "Jony"]
 	path = Jony
 	url = https://github.com/Dialexio/Jony.git
-[submodule "LiquiFlow"]
-	path = LiquiFlow
-	url = https://github.com/Liquipedia/LiquiFlow.git
 [submodule "Marginless"]
 	path = Marginless
 	url = https://github.com/tealyt/Marginless-MediaWiki.git
@@ -69,7 +66,7 @@
 	url = https://bitbucket.org/wikiskripta/medik.git
 [submodule "monaco-port"]
 	path = Monaco
-	url = https://github.com/Beleggrodion/monaco-port
+	url = https://github.com/Universal-Omega/Monaco.git
 [submodule "Onyx"]
 	path = Onyx
 	url = https://github.com/Halopedia/Onyx.git
@@ -79,9 +76,6 @@
 [submodule "Pivot"]
 	path = Pivot
 	url = https://github.com/Hutchy68/pivot.git
-[submodule "PureCss"]
-	path = PureCss
-	url = https://github.com/airbob/MediaWiki_Skin_PureCss.git
 [submodule "SimpleText"]
 	path = SimpleText
 	url = https://github.com/samwilson/mediawiki-simpletext.git
