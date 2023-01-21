@@ -7,9 +7,6 @@
 [submodule "FemiwikiSkin"]
 	path = FemiwikiSkin
 	url = https://github.com/femiwiki/FemiwikiSkin
-[submodule "foreground"]
-	path = Foreground
-	url = https://github.com/thingles/foreground
 [submodule "Liberty-MW-Skin"]
 	path = Liberty
 	url = https://gitlab.com/librewiki/Liberty-MW-Skin.git/
@@ -43,15 +40,9 @@
 [submodule "DarkCosmos"]
 	path = DarkCosmos
 	url = https://github.com/wikimedia/DarkCosmos
-[submodule "Dgraph"]
-	path = Dgraph
-	url = https://github.com/dgraph-io/mediawiki-dgraph-skin.git
 [submodule "eveskin"]
 	path = eveskin
 	url = https://github.com/wikimedia/eveskin.git
-[submodule "GoMediaWiki"]
-	path = GoMediaWiki
-	url = https://github.com/naumenko/GMW-Free-Skin.git
 [submodule "Jony"]
 	path = Jony
 	url = https://github.com/Dialexio/Jony.git
@@ -73,9 +64,6 @@
 [submodule "Overclocked"]
 	path = Overclocked
 	url = https://github.com/PCGamingWiki/overclocked.git
-[submodule "Pivot"]
-	path = Pivot
-	url = https://github.com/Hutchy68/pivot.git
 [submodule "SimpleText"]
 	path = SimpleText
 	url = https://github.com/samwilson/mediawiki-simpletext.git
@@ -85,12 +73,6 @@
 [submodule "VectorBlue"]
 	path = VectorBlue
 	url = https://github.com/Sturmkrieg/mw-VectorBlue
-[submodule "Noble"]
-	path = Noble
-	url = https://github.com/Halopedia/Noble
-[submodule "Trove"]
-	path = Trove
-	url = https://github.com/Halopedia/Trove
 [submodule "Requiem"]
 	path = Requiem
 	url = https://github.com/Halopedia/Requiem
@@ -106,6 +88,3 @@
 [submodule "pivot"]
 	path = pivot
 	url = https://github.com/Hutchy68/pivot.git
-[submodule "Jforeground"]
-	path = Jforeground
-	url = https://github.com/Hutchy68/Jforeground
