@@ -1,24 +1,3 @@
-[submodule "chameleon"]
-	path = Chameleon
-	url = https://github.com/cmln/chameleon
-[submodule "DarkVector"]
-	path = DarkVector
-	url = https://github.com/dolfinus/DarkVector.git
-[submodule "FemiwikiSkin"]
-	path = FemiwikiSkin
-	url = https://github.com/femiwiki/FemiwikiSkin
-[submodule "Liberty-MW-Skin"]
-	path = Liberty
-	url = https://gitlab.com/librewiki/Liberty-MW-Skin.git/
-[submodule "ModernSkylight"]
-	path = ModernSkylight
-	url = https://github.com/wiki-chan/ModernSkylight
-[submodule "Tweeki"]
-	path = Tweeki
-	url = https://github.com/thaider/Tweeki
-[submodule "ScratchWikiSkin2"]
-	path = ScratchWikiSkin2
-	url = https://github.com/InternationalScratchWiki/ScratchWikiSkin2.git
 [submodule "2018"]
 	path = 2018
 	url = https://github.com/morags/mediawiki-2018-skin.git
@@ -40,12 +19,18 @@
 [submodule "DarkCosmos"]
 	path = DarkCosmos
 	url = https://github.com/wikimedia/DarkCosmos
-[submodule "eveskin"]
-	path = eveskin
-	url = https://github.com/wikimedia/eveskin.git
+[submodule "DarkVector"]
+	path = DarkVector
+	url = https://github.com/dolfinus/DarkVector.git
+[submodule "FemiwikiSkin"]
+	path = FemiwikiSkin
+	url = https://github.com/femiwiki/FemiwikiSkin
 [submodule "Jony"]
 	path = Jony
 	url = https://github.com/Dialexio/Jony.git
+[submodule "Liberty-MW-Skin"]
+	path = Liberty
+	url = https://gitlab.com/librewiki/Liberty-MW-Skin.git/
 [submodule "Marginless"]
 	path = Marginless
 	url = https://github.com/tealyt/Marginless-MediaWiki.git
@@ -55,36 +40,45 @@
 [submodule "Medik"]
 	path = Medik
 	url = https://bitbucket.org/wikiskripta/medik.git
-[submodule "monaco-port"]
-	path = Monaco
-	url = https://github.com/Universal-Omega/Monaco.git
+[submodule "ModernSkylight"]
+	path = ModernSkylight
+	url = https://github.com/wiki-chan/ModernSkylight
 [submodule "Onyx"]
 	path = Onyx
 	url = https://github.com/Halopedia/Onyx.git
 [submodule "Overclocked"]
 	path = Overclocked
 	url = https://github.com/PCGamingWiki/overclocked.git
+[submodule "ScratchWikiSkin2"]
+	path = ScratchWikiSkin2
+	url = https://github.com/InternationalScratchWiki/ScratchWikiSkin2.git
 [submodule "SimpleText"]
 	path = SimpleText
 	url = https://github.com/samwilson/mediawiki-simpletext.git
+[submodule "Tweeki"]
+	path = Tweeki
+	url = https://github.com/thaider/Tweeki
 [submodule "VectorAd"]
 	path = VectorAd
 	url = https://github.com/WikiMANNia/MediaWiki-Skins-with-Advertisements.git
 [submodule "VectorBlue"]
 	path = VectorBlue
 	url = https://github.com/Sturmkrieg/mw-VectorBlue
-[submodule "Requiem"]
-	path = Requiem
-	url = https://github.com/Halopedia/Requiem
-[submodule "MaginotSkinUtils"]
-	path = MaginotSkinUtils
-	url = https://github.com/Halopedia/MaginotSkinUtils
 [submodule "Wisky"]
 	path = Wisky
 	url = https://bitbucket.org/wikiskripta/wisky.git
-[submodule "snapwikiskin"]
-	path = snapwikiskin
-	url = https://github.com/snapwiki/snapwikiskin
+[submodule "chameleon"]
+	path = Chameleon
+	url = https://github.com/cmln/chameleon
+[submodule "eveskin"]
+	path = eveskin
+	url = https://github.com/wikimedia/eveskin.git
+[submodule "monaco-port"]
+	path = Monaco
+	url = https://github.com/Universal-Omega/Monaco.git
 [submodule "pivot"]
 	path = pivot
 	url = https://github.com/Hutchy68/pivot.git
+[submodule "snapwikiskin"]
+	path = snapwikiskin
+	url = https://github.com/snapwiki/snapwikiskin
