@@ -13,12 +13,6 @@
 [submodule "Citizen"]
 	path = Citizen
 	url = https://github.com/StarCitizenTools/mediawiki-skins-Citizen.git
-[submodule "Cologne_Banner"]
-	path = Cologne_Banner
-	url = https://github.com/WikiMANNia/MediaWiki-Skins-with-Advertisements.git
-[submodule "DarkCosmos"]
-	path = DarkCosmos
-	url = https://github.com/wikimedia/DarkCosmos
 [submodule "DarkVector"]
 	path = DarkVector
 	url = https://github.com/dolfinus/DarkVector.git
@@ -58,9 +52,6 @@
 [submodule "Tweeki"]
 	path = Tweeki
 	url = https://github.com/thaider/Tweeki
-[submodule "VectorAd"]
-	path = VectorAd
-	url = https://github.com/WikiMANNia/MediaWiki-Skins-with-Advertisements.git
 [submodule "VectorBlue"]
 	path = VectorBlue
 	url = https://github.com/Sturmkrieg/mw-VectorBlue
@@ -76,9 +67,6 @@
 [submodule "monaco-port"]
 	path = Monaco
 	url = https://github.com/Universal-Omega/Monaco.git
-[submodule "pivot"]
-	path = pivot
-	url = https://github.com/Hutchy68/pivot.git
 [submodule "snapwikiskin"]
 	path = snapwikiskin
 	url = https://github.com/snapwiki/snapwikiskin
