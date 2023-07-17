@@ -6,7 +6,7 @@
 	url = https://invent.kde.org/websites/aether-mediawiki.git
 [submodule "AtlasMuseum"]
 	path = AtlasMuseum
-	url = https://github.com/Atlasmuseum/AMV2.git
+	url = https://github.com/jdlrobson/mediawiki-skins-Atlasmuseum.git
 [submodule "BlueLL"]
 	path = BlueLL
 	url = https://github.com/lingua-libre/BlueLL.git
