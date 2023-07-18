@@ -19,9 +19,6 @@
 [submodule "FemiwikiSkin"]
 	path = FemiwikiSkin
 	url = https://github.com/femiwiki/FemiwikiSkin
-[submodule "Jony"]
-	path = Jony
-	url = https://github.com/Dialexio/Jony.git
 [submodule "Liberty-MW-Skin"]
 	path = Liberty
 	url = https://gitlab.com/librewiki/Liberty-MW-Skin.git/
@@ -55,9 +52,6 @@
 [submodule "VectorBlue"]
 	path = VectorBlue
 	url = https://github.com/Sturmkrieg/mw-VectorBlue
-[submodule "Wisky"]
-	path = Wisky
-	url = https://bitbucket.org/wikiskripta/wisky.git
 [submodule "chameleon"]
 	path = Chameleon
 	url = https://github.com/cmln/chameleon
