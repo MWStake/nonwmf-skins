@@ -4,6 +4,8 @@ This repository holds a number of submodules pointing to the repositories of Med
 
 Repositories included here will automatically be included in [https://codesearch.wmflabs.org/search/ MediaWiki code search], which is used by MediaWiki core developers when identifying usage levels during the deprecation process.
 
+If the skin is no longer supported and does not work with any [https://www.mediawiki.org/wiki/Version_lifecycle supported version of MediaWiki], it should be removed.
+
 == How to add your own repository ==
 
 The simplest thing you can do is [https://github.com/MWStake/nonwmf-skins/issues/new submit an issue] with the URL of the repository.
