@@ -1,0 +1,126 @@
+= A Super-repository of non-Wikimedia hosted skins =
+
+This repository holds a number of submodules pointing to the repositories of MediaWiki sklns that are not hosted on Wikimedia's Gerrit instance.  If you want to add one, just send us a pull request.
+
+Repositories included here will automatically be included in [https://codesearch.wmflabs.org/search/ MediaWiki code search], which is used by MediaWiki core developers when identifying usage levels during the deprecation process.
+
+== How to add your own repository ==
+
+The simplest thing you can do is [https://github.com/MWStake/nonwmf-skins/issues/new submit an issue] with the URL of the repository.
+
+== How to create your own pull request ==
+
+Of course, while your issue will get the the repository added, the '''''quickest''''' way to get your repositories added here (in other words, you'll save the maintainers of this repository from doing a lot of work) is to create a pull request that adds then to in accordance with this repository's policy.  The policy is recorded in the [[policy]] script.
+
+To add your skin to this repository, fork this repository, check out your fork, go to the directory containing the checkout, and create a branch with the named after your skin(s).  (See [https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork Creating a pull request from a fork] if you need information on how to do any of this.)
+
+For example, to add the [https://github.com/lakejason0/mediawiki-skins-Lakeus Lakeus skin], I created a branch in my checkout:
+<blockquote><pre>
+$ git checkout -b Lakeus
+Switched to a new branch 'Lakeus'
+$
+</pre></blockquote>
+
+Next, add your skin as a submodule to the new branch using <tt>git submodule</tt>.
+
+To add the Lakeus skin a a submodule to my branch I ran:
+
+<blockquote><pre>
+$ git submodule add https://github.com/lakejason0/mediawiki-skins-Lakeus Lakeus
+Cloning into '/home/mah/work/code/mediawiki/nonwmf-skins/Lakeus'...
+remote: Enumerating objects: 2432, done.
+remote: Counting objects: 100% (667/667), done.
+remote: Compressing objects: 100% (185/185), done.
+remote: Total 2432 (delta 525), reused 601 (delta 481), pack-reused 1765 (from 1)
+Receiving objects: 100% (2432/2432), 674.72 KiB | 11.44 MiB/s, done.
+Resolving deltas: 100% (1612/1612), done.
+$
+</pre></blockquote>
+
+This modifies your <tt>.gitmodules</tt> to add an entry for your skin and adds the submodule ready for committing.
+
+Using <tt>git diff HEAD</tt> you should see something similar to this:
+
+<blockquote><pre>
+$ git diff HEAD
+diff --git a/.gitmodules b/.gitmodules
+index e7d380a..85b806c 100644
+--- a/.gitmodules
++++ b/.gitmodules
+@@ -64,3 +64,6 @@
+ [submodule "snapwikiskin"]
+        path = snapwikiskin
+        url = https://github.com/snapwiki/snapwikiskin
++[submodule "Lakeus"]
++       path = Lakeus
++       url = https://github.com/lakejason0/mediawiki-skins-Lakeus
+diff --git a/Lakeus b/Lakeus
+new file mode 160000
+index 0000000..3d13388
+--- /dev/null
++++ b/Lakeus
+@@ -0,0 +1 @@
++Subproject commit 3d13388850fe6d8d98f3ac41fd9b463685097167
+$
+</pre></blockquote>
+
+Finally, run the <tt>[[policy]]</tt> script so that your pull request will have be in the right order and then run <tt>git add .gitmodules</tt> so the changes it made are staged in your branch:
+
+Here's an example of the sort of change the policy script will make:
+<blockquote><pre>
+$ ./policy
+$ git diff
+diff --git a/.gitmodules b/.gitmodules
+index 85b806c..69607cd 100644
+--- a/.gitmodules
++++ b/.gitmodules
+@@ -19,6 +19,9 @@
+ [submodule "FemiwikiSkin"]
+        path = FemiwikiSkin
+        url = https://github.com/femiwiki/FemiwikiSkin
++[submodule "Lakeus"]
++       path = Lakeus
++       url = https://github.com/lakejason0/mediawiki-skins-Lakeus
+ [submodule "Liberty-MW-Skin"]
+        path = Liberty
+        url = https://gitlab.com/librewiki/Liberty-MW-Skin.git/
+@@ -64,6 +67,3 @@
+ [submodule "snapwikiskin"]
+        path = snapwikiskin
+        url = https://github.com/snapwiki/snapwikiskin
+-[submodule "Lakeus"]
+-       path = Lakeus
+-       url = https://github.com/lakejason0/mediawiki-skins-Lakeus
+$ git add .gitmodules
+</pre></blockquote>
+
+After successful completion of the above steps, commit your changes and push your fork to GitHub.
+
+<blockquote><pre>
+$ git commit -m "Add the Lakeus skin."
+[Lakeus 15f7d7b] Add the Lakeus skin
+ 2 files changed, 4 insertions(+)
+ create mode 160000 Lakeus
+$ git push origin Lakeus 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 32 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.02 KiB | 1.02 MiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote: 
+remote: Create a pull request for 'Lakeus' on GitHub by visiting:
+remote:      https://github.com/MWStake/nonwmf-skins/pull/new/Lakeus
+remote: 
+To https://github.com/MWStake/nonwmf-skins
+ * [new branch]      Lakeus -> Lakeus
+</pre></blockquote>
+
+Now you can visit https://github.com/MWStake/nonwmf-skins/pull/new and create a pull request.
+
+Again, refer to [https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork Creating a pull reaquest from a fork] if you need information on how to do any of this.
+
+== Updating and synchronizing the submodules ==
+
+It isn't strictly necessary, but you can update the submodule references by using the [[update-all-submodules]] script which iterates over each submodule and calls [[update-to-primary-branch]] to update the submodule.
