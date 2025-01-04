@@ -19,6 +19,9 @@
 [submodule "FemiwikiSkin"]
 	path = FemiwikiSkin
 	url = https://github.com/femiwiki/FemiwikiSkin
+[submodule "Lakeus"]
+	path = Lakeus
+	url = https://github.com/lakejason0/mediawiki-skins-Lakeus
 [submodule "Liberty-MW-Skin"]
 	path = Liberty
 	url = https://gitlab.com/librewiki/Liberty-MW-Skin.git/
