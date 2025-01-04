@@ -1,6 +1,3 @@
-[submodule "2018"]
-	path = 2018
-	url = https://github.com/morags/mediawiki-2018-skin.git
 [submodule "Aether"]
 	path = Aether
 	url = https://invent.kde.org/websites/aether-mediawiki.git
