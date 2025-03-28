@@ -6,12 +6,26 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # Verify that every submodule can be checked out
-      - uses: actions/checkout@v2
+      - name: Verify that every submodule can be checked out
+        uses: actions/checkout@v4
         with:
           submodules: true
-      # Verify readable with Python's configparser, which MediaWiki codesearch uses
-      - uses: actions/setup-python@v2
+          fetch-depth: 0
+      - name: Get python
+        uses: actions/setup-python@v4
         with:
-          python-version: '3.7'
-      - run: python -c "import configparser as c;c.ConfigParser().read('.gitmodules')"
+          python-version: '3.10'
+      - name: Verify readable with Python's configparser, which MediaWiki codesearch uses
+        run: python -c "import configparser as c;c.ConfigParser().read('.gitmodules')"
+      - name: Verify that the policy is met
+        run: |
+          ./policy
+          git status --porcelain
+          git status --porcelain | wc -l
+          git diff
+          line="$(git status --porcelain | wc -l)"
+          echo "$line"
+          if [ "$line" -gt 0 ]; then
+            echo "Does not meet policy"
+            exit 1
+          fi
