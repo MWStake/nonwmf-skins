@@ -43,9 +43,6 @@
 [submodule "ScratchWikiSkin2"]
 	path = ScratchWikiSkin2
 	url = https://github.com/InternationalScratchWiki/ScratchWikiSkin2.git
-[submodule "SimpleText"]
-	path = SimpleText
-	url = https://github.com/samwilson/mediawiki-simpletext.git
 [submodule "Tweeki"]
 	path = Tweeki
 	url = https://github.com/thaider/Tweeki
