@@ -13,6 +13,9 @@
 [submodule "DarkVector"]
 	path = DarkVector
 	url = https://github.com/dolfinus/DarkVector.git
+[submodule "Evelution"]
+	path = Evelution
+	url = https://github.com/AWikia/SkinEvelution.git
 [submodule "FemiwikiSkin"]
 	path = FemiwikiSkin
 	url = https://github.com/femiwiki/FemiwikiSkin
