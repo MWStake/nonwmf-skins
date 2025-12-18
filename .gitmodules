@@ -58,9 +58,6 @@
 [submodule "eveskin"]
 	path = eveskin
 	url = https://github.com/wikimedia/eveskin.git
-[submodule "monaco-port"]
-	path = Monaco
-	url = https://github.com/Universal-Omega/Monaco.git
 [submodule "snapwikiskin"]
 	path = snapwikiskin
 	url = https://github.com/snapwiki/snapwikiskin
