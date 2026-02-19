@@ -33,7 +33,7 @@
 	url = https://github.com/nasirkhan/mediawiki-bootstrap.git
 [submodule "Medik"]
 	path = Medik
-	url = https://bitbucket.org/wikiskripta/medik.git
+	url = https://github.com/wikiskripta/Medik.git
 [submodule "ModernSkylight"]
 	path = ModernSkylight
 	url = https://github.com/wiki-chan/ModernSkylight
