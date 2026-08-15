@@ -7,6 +7,9 @@
 [submodule "BlueLL"]
 	path = BlueLL
 	url = https://github.com/lingua-libre/BlueLL.git
+[submodule "Candy"]
+	path = Candy
+	url = https://github.com/Newman22/MediaWiki-Candy
 [submodule "Citizen"]
 	path = Citizen
 	url = https://github.com/StarCitizenTools/mediawiki-skins-Citizen.git
